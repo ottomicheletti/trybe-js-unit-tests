@@ -29,7 +29,7 @@ describe('4 - Implemente os casos de teste para a função `circle`', () => {
     expect(typeof circle(3)).toBe('object');
     expect(circle(1)).toMatchObject({ area: 3.14, circumference: 6.28, radius: 1 });
     expect(circle(2)).toHaveProperty('circumference', 12.56);
-    expect(circle(3)).toHaveProperty('area', 28.26);
-    expect(circle(3)).toMatchObject({ area: 28.26, circumference: 18.84, radius: 3 });
+    expect(circle(3)).toHaveProperty('area', 28.259999999999998);
+    expect(circle(3)).toMatchObject({ area: 28.259999999999998, circumference: 18.84, radius: 3 });
   });
 });
